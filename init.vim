@@ -30,8 +30,8 @@ endif
 let s:dein_dir = expand('~/.cache/dein')
 let s:dein_repo_dir = s:dein_dir . '/repos/github.com/Shougo/dein.vim'
 let g:deoplete#enable_at_startup = 1
-let g:python3_host_prog = expand('~/.pyenv/shims/python3')
-let g:python_host_prog = expand('~/.pyenv/shims/python2.7')
+let g:python3_host_prog = expand('~/.pyenv/versions/3.3.6/bin/python3')
+let g:python_host_prog = expand('~/.pyenv/versions/2.7/bin/python')
 
 " なければgit clone
 if !isdirectory(s:dein_repo_dir)
