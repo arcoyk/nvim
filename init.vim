@@ -11,6 +11,7 @@ set shiftwidth=2
 set ruler
 noremap py :w !python
 noremap w :w
+noremap q :wq!
 noremap wq :wq
 noremap vs :vsplit
 noremap <S-Left> <C-w><<CR>
