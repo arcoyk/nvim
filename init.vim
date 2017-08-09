@@ -57,10 +57,6 @@ endif
 " となり書き方が少し変わりました。
 " 追記終わり
 
-" vimprocだけは最初にインストールしてほしい
-if dein#check_install(['vimproc'])
-  call dein#install(['vimproc'])
-endif
 " その他インストールしていないものはこちらに入れる
 if dein#check_install()
   call dein#install()
