@@ -1,2 +1,3 @@
 # nvim
-neovim best practice
+Shared neovim setting file and useful plugins.
+
