@@ -4,7 +4,11 @@ repo = 'Shougo/dein.vim'
 [[plugins]]
 repo = 'Shougo/neosnippet-snippets'
 
-
 [[plugins]]
 repo = 'tomasr/molokai'
 
+[[plugins]]
+repo = 'scrooloose/nerdtree'
+
+[[plugins]]
+repo = 'Shougo/denite.nvim'
