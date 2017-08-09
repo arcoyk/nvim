@@ -4,6 +4,21 @@ Shared neovim setting file and useful plugins
 # references 
 http://qiita.com/okamos/items/2259d5c770d51b88d75b.
 
+# Environment
+
+Most of useful neovim plugins requires python3.
+
+`
+pyenv local python3.x.x
+pip install neovim
+`
+
+Rewrite init.vim
+
+`
+let g:python3_host_prog = expand('~/.pyenv/shims/python3')
+`
+
 # Ricty: font for Development
 `cp -f /fonts/Ricty*.ttf ~/Library/Fonts/`
 `fc-cache -vf`
