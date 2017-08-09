@@ -7,3 +7,5 @@ repo = 'Shougo/neosnippet-snippets'
 [[plugins]]
 repo = 'scrooloose/nerdtree'
 
+[[plugins]]
+repo = 'Shougo/denite.nvim'
