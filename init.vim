@@ -29,7 +29,7 @@ endif
 " dein.vimのディレクトリ
 let s:dein_dir = expand('~/.cache/dein')
 let s:dein_repo_dir = s:dein_dir . '/repos/github.com/Shougo/dein.vim'
-
+let g:deoplete#enable_at_startup = 1
 " なければgit clone
 if !isdirectory(s:dein_repo_dir)
   execute '!git clone https://github.com/Shougo/dein.vim' s:dein_repo_dir
