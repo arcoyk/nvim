@@ -59,6 +59,10 @@ endif
 " となり書き方が少し変わりました。
 " 追記終わり
 
+" color scheme
+colorscheme molokai
+
+
 " その他インストールしていないものはこちらに入れる
 if dein#check_install()
   call dein#install()
