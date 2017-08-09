@@ -1,2 +1,2 @@
-# vimrc
-vimrc best practice
+# nvim
+neovim best practice
