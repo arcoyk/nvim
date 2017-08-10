@@ -61,7 +61,9 @@ endif
 " save_cache -> save_state
 " となり書き方が少し変わりました。
 " 追記終わり
-
+syntax enable
+set t_Co=256
+colorscheme atom-dark-256
 
 " その他インストールしていないものはこちらに入れる
 if dein#check_install()

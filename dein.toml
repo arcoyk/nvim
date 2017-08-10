@@ -21,3 +21,6 @@ repo = 'tpope/vim-fugitive'
 
 [[plugins]]
 repo = 'zchee/deoplete-jedi'
+
+[[plugins]]
+repo = 'gosukiwi/vim-atom-dark'
