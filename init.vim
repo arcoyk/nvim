@@ -1,4 +1,4 @@
-autocmd ColorScheme * highlight Comment ctermfg=22 guifg=#008800
+autocmd ColorScheme * highlight Comment ctermfg=34 guifg=#ffff00
 set noswapfile
 set fenc=utf-8
 set showcmd
