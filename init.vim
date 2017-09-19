@@ -62,8 +62,7 @@ endif
 " となり書き方が少し変わりました。
 " 追記終わり
 syntax enable
-set t_Co=256
-colorscheme atom-dark-256
+colorscheme ron
 
 " その他インストールしていないものはこちらに入れる
 if dein#check_install()
