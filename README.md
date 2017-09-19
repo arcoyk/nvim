@@ -1,6 +1,14 @@
 # nvim
 Shared neovim setting file and useful plugins
 
+# Terms
+## neovim
+Extention of vim with modern terminal features such as cursor styling, truecolor and bracketed paste.
+## dein.vim
+Plugin manager (install listed plugins). Substitution of neobundle.vim.
+## dein.toml & dein\_lazy.toml
+Plugins list
+
 # references 
 http://qiita.com/okamos/items/2259d5c770d51b88d75b.
 
