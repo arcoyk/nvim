@@ -9,6 +9,15 @@ Plugin manager (install listed plugins). Substitution of neobundle.vim.
 ## dein.toml & dein\_lazy.toml
 Plugins list
 
+# How to add plugins
+'''dein.toml
+[[plugins]]
+repo = 'here/is/a/repo'
+'''
+'''vim
+:call dein#install()
+'''
+
 # references 
 http://qiita.com/okamos/items/2259d5c770d51b88d75b.
 
