@@ -15,7 +15,7 @@ Plugins list
 repo = 'here/is/a/repo'
 '''
 '''vim
-:call dein#install()
+:call dein#check\_install()
 '''
 
 # references 

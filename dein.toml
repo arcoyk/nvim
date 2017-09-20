@@ -27,3 +27,7 @@ repo = 'gosukiwi/vim-atom-dark'
 
 [[plugins]]
 repo = 'w0ng/vim-hybrid'
+
+[[plugins]]
+repo = 'slim-template/vim-slim'
+
