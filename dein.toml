@@ -31,3 +31,5 @@ repo = 'w0ng/vim-hybrid'
 [[plugins]]
 repo = 'slim-template/vim-slim'
 
+[[plugins]]
+repo = 'Quramy/tsuquyomi'

@@ -58,3 +58,10 @@ let g:python3_host_prog = expand('~/.pyenv/shims/python3')
 `cp -f /usr/local/Cellar/ricty/4.0.1/share/fonts/Ricty*.ttf ~/Library/Fonts/`
 
 `fc-cache -vf`
+
+# Trouble Shooting
+- Message: "Cannot find colorscheme xxx". Cause: dein cash unupdated.
+'''
+:call dein#recache\_runtimepath()
+'''
+
