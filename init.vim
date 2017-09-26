@@ -14,6 +14,7 @@ noremap w :w
 noremap q :wq!
 noremap wq :wq
 noremap vs :vsplit
+noremap nt :NERDTree
 noremap <C-e> :NERDTree
 noremap <S-Left> <C-w><<CR>
 noremap <S-Right> <C-w>><CR>
