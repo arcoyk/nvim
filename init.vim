@@ -14,7 +14,6 @@ noremap w :w
 noremap q :wq!
 noremap wq :wq
 noremap vs :vsplit
-noremap <C-e> :NERDTree
 noremap <S-Left> <C-w><<CR>
 noremap <S-Right> <C-w>><CR>
 noremap <S-h> ^
@@ -48,7 +47,6 @@ if dein#load_state(s:dein_dir)
   let s:lazy_toml = 'dein_lazy.toml'
   call dein#load_toml(s:toml, {'lazy': 0})
   call dein#load_toml(s:lazy_toml, {'lazy': 1})
-
   call dein#end()
   call dein#save_state()
 endif
@@ -66,7 +64,6 @@ syntax enable
 " colorscheme atom-dark-256
 set background=dark
 colorscheme hybrid
-
 
 " その他インストールしていないものはこちらに入れる
 if dein#check_install()
